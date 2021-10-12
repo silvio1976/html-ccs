@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: seagreen;
+            margin: 0px;
+        }
+        h1{
+            background-color: yellowgreen;
+            box-shadow: 1px 1px 1px black;
+        }
+        header{
+            background-color:white;   
+            padding: 10px;
+            margin: 10px;
+        }
+        section{
+            padding: 0px;
+        }
+        nav{
+            background-color:rgb(17, 7, 7);
+            padding: 5px;
+        }
+        nav >a{
+            background-color: rgb(20, 12, 12);
+            color:white;
+        }
+        nav >a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 6px;
+        }
+        article{
+            background-color: rgb(156, 99, 202);
+            margin: 0px;
+            padding: 5px;
+            box-shadow: 1px 1px 1px black;
+        }
+        article h2{
+            margin-left: 0px;
+            
+        }
+        article p{
+            margin-left: 0px;
+
+        }
+        article >aside{
+            background-color: black;
+            margin: 0px;
+            padding: 5px;
+            color: blanchedalmond;
+            text-align: center;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 8px;
+            padding: 5px;
+        }
+        div#bola{
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            margin: auto;
+            border-radius: 50%;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+      <h1>Meu site</h1>
+      <nav>
+        <a href="#">links</a>
+      </nav>
+    </header>
+    <main>
+      <section id="assuntos">
+      </section>
+      <section id="Noticias">
+          <article>
+              <h2>Noticia sobre o brasil</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, soluta? Ex, beatae. Similique aliquid voluptatibus dolore vel praesentium dolores facere eius culpa quia ut optio rem perspiciatis, nostrum minus fugiat.</p>
+          <aside>
+              <p>Escrito por Jose Da Silva</p>
+          </aside>
+          </article>
+      </section>
+    </main>
+    <footer>
+    <p>Desenvolvido pelo curso em video</p>
+    </footer>
+    <div id="bola"></div>
+    
+</body>
+</html>

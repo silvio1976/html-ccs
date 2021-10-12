@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(0, 255, 119);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*em html o id = sinal # (elemento unico)
+  em html a class = e igual  a .(varios elementos */
+h1#principal{
+    text-align: center;
+    background-color: white;
+    font-size: 2em;
+}
+h2{
+    color: rgb(128, 0, 32);
+}
+h2.basico{
+    color: green;
+    font-weight: bold;
+
+}
+h2.intermediario{
+    color: rgb(62, 128, 0);
+    font-weight: bolder;
+
+}
+h2.avancado{
+    color: rgb(128, 79, 0);
+    font-weight: lighter;
+}
+.destaque{
+    background-color:white;
+    font-weight: inherit;
+    text-align: center;
+}
+.aprendendo{
+    color:black;
+    text-align: center;
+    background-color:white ;
+    font-weight: lighter;
+}
